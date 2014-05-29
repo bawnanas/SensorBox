@@ -1,0 +1,8 @@
+					@foreach($deltas as $delta) 
+						@if($delta[0]->device_id == $device->id)
+						<tr>
+							<td>{{$delta->port}}</td>
+							<td class = "currentReading" id=""> {{$delta[0]->close}}</td>
+						</tr>
+						@endif 
+					@endforeach 
