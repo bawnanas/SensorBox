@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<currentConditions>
+<deviceName>My Device</deviceName>
+<readingDateTime>04/21/2014 01:37:58</readingDateTime>
+<tempUnits>Fahrenheit</tempUnits>
+<form>1TH</form>
+<ports>
+  <port number="1" name="Port 1">
+    <condition type="temperature">
+      <currentReading>77.0</currentReading>
+      <highLimit>85</highLimit>
+      <lowLimit>10</lowLimit>
+      <alarmStatus>0</alarmStatus>
+      <prevAlarmStatus>0</prevAlarmStatus>
+    </condition>
+    <condition type="humidity">
+      <currentReading>34</currentReading>
+      <highLimit>85</highLimit>
+      <lowLimit>10</lowLimit>
+      <alarmStatus>0</alarmStatus>
+      <prevAlarmStatus>0</prevAlarmStatus>
+    </condition>
+  </port>
+</ports>
+<errorReadingSensor>0</errorReadingSensor>
+</currentConditions>
